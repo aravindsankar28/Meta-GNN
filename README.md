@@ -1,8 +1,13 @@
 # Metagraph Neural Network for semi-supervised learning on graphs
 
-This is a TensorFlow implementation of Meta-GNN. A pre-print of our work can be found at:
+This is a TensorFlow implementation of [Meta-GNN, a semi-supervised node classification model for Attributed Heterogeneous Information Networks](http://asankar3.web.engr.illinois.edu/files/Meta-GNN-ASONAM2019.pdf). This work has been published in the 2019 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM), ASONAM 2019.
 
-Aravind Sankar*, Xinyang Zhang* and Kevin Chen-Chuan Chang [Motif-based Convolutional Neural Network on Graphs] (https://arxiv.org/pdf/1711.05697.pdf). 
+
+A pre-print of our work can be found at:
+
+Aravind Sankar*, Xinyang Zhang* and Kevin Chen-Chuan Chang [Motif-based Convolutional Neural Network on Graphs](https://arxiv.org/pdf/1711.05697.pdf).
+
+![Meta-GNN: MetaGraph Neural Network](arch.png)
 
 This directory contains code to run Meta-GNN. The model takes as input the metagraph adjacency tensor, node features, and labels to train. The sample code runs subgraph matching to compute metagraph adjacency tensor.
 
@@ -51,7 +56,7 @@ The json description of the metagraph is given by:
 
 `"m"` specifies the (target node, context node) pairs, corresponding to unique semantic roles in the metagraph (i.e. dimension k of metagraph adjacency tensor A_kij). In this example, there will one N by N matrix in the returned metagraph adjacency tensor, corresponding to node[1] in node[0]'s context.
 
-Please cite our paper if you use this code in your own work:
+Please cite our papers if you use this code in your own work:
 
 ```
 @article{sankar2017motif,
@@ -59,5 +64,15 @@ Please cite our paper if you use this code in your own work:
   author={Sankar, Aravind and Zhang, Xinyang and Chang, Kevin Chen-Chuan},
   journal={arXiv preprint arXiv:1711.05697},
   year={2017}
+}
+```
+
+```
+@article{sankar2019meta,
+  title={Meta-GNN: Metagraph Neural Network for Semi-supervised learning in Attributed Heterogeneous Information Networks},
+  author={Sankar, Aravind and Zhang, Xinyang and Chang, Kevin Chen-Chuan},
+  journal={ASONAM. IEEE},
+  pages={137--144},
+  year={2019}
 }
 ```
