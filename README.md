@@ -1,6 +1,7 @@
 # Metagraph Neural Network for semi-supervised learning on graphs
 
-This is a TensorFlow implementation of [Meta-GNN, a semi-supervised node classification model for Attributed Heterogeneous Information Networks](http://asankar3.web.engr.illinois.edu/files/Meta-GNN-ASONAM2019.pdf). This work has been published in the 2019 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM), ASONAM 2019.
+This is a TensorFlow implementation of [Meta-GNN: Metagraph Neural Network for Semi-supervised
+learning in Attributed Heterogeneous Information Networks](http://asankar3.web.engr.illinois.edu/files/Meta-GNN-ASONAM2019.pdf). This work has been published in the 2019 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM), ASONAM 2019.
 
 
 A pre-print of our work can be found at:
