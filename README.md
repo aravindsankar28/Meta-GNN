@@ -1,12 +1,12 @@
-# Metagraph Neural Network for semi-supervised learning on graphs
+## Metagraph Neural Network for semi-supervised learning on graphs
+
+##### Contributors: [Aravind Sankar](http://asankar3.web.engr.illinois.edu/) (asankar3@illinois.edu),  [Xinyang Zhang](https://github.com/xinyangz) (xz43@illinois.edu).
+
+> Aravind Sankar, Xinyang Zhang and Kevin Chen-Chuan Chang, "Meta-GNN: Metagraph Neural Network for Semi-supervised
+learning in Attributed Heterogeneous Information Networks", 2019 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining, <b>ASONAM 2019</b>, August 27-30, 2019, Vancouver, Canada.
 
 This is a TensorFlow implementation of [Meta-GNN: Metagraph Neural Network for Semi-supervised
-learning in Attributed Heterogeneous Information Networks](http://asankar3.web.engr.illinois.edu/files/Meta-GNN-ASONAM2019.pdf). This work has been published in the 2019 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM), ASONAM 2019.
-
-
-A pre-print of our work can be found at:
-
-Aravind Sankar*, Xinyang Zhang* and Kevin Chen-Chuan Chang [Motif-based Convolutional Neural Network on Graphs](https://arxiv.org/pdf/1711.05697.pdf).
+learning in Attributed Heterogeneous Information Networks](http://asankar3.web.engr.illinois.edu/files/Meta-GNN-ASONAM2019.pdf). An earlier pre-print of our work can be found at [Motif-based Convolutional Neural Network on Graphs](https://arxiv.org/pdf/1711.05697.pdf).
 
 ![Meta-GNN: MetaGraph Neural Network](arch.png)
 
@@ -59,7 +59,7 @@ The json description of the metagraph is given by:
 
 Please cite our papers if you use this code in your own work:
 
-```
+```bibtex
 @article{sankar2017motif,
   title={Motif-based Convolutional Neural Network on Graphs},
   author={Sankar, Aravind and Zhang, Xinyang and Chang, Kevin Chen-Chuan},
@@ -68,7 +68,7 @@ Please cite our papers if you use this code in your own work:
 }
 ```
 
-```
+```bibtex
 @article{sankar2019meta,
   title={Meta-GNN: Metagraph Neural Network for Semi-supervised learning in Attributed Heterogeneous Information Networks},
   author={Sankar, Aravind and Zhang, Xinyang and Chang, Kevin Chen-Chuan},
